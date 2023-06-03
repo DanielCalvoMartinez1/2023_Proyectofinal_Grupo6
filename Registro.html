@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <h1>DAMA FILMS</h1>
+    
+
+    <div class="container">
+        <h2>REGISTRO</h2>
+        <form>
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required><br>
+          
+            <label for="fullname">Nombre real:</label>
+            <input type="text" id="fullname" name="fullname" required><br>
+          
+            <label for="birthdate">Fecha de nacimiento (dd/mm/aaaa):</label>
+            <input type="text" id="birthdate" name="birthdate" required><br>
+          
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+          
+            <label for="password">Contraseña (nueva contraseña):</label>
+            <input type="password" id="password" name="password" required><br>
+          
+            <label for="confirm-password">Contraseña (introducir de nuevo):</label>
+            <input type="password" id="confirm-password" name="confirm-password" required><br>
+          
+            <label for="newsletter"> 
+            <input type="checkbox" id="newsletter" name="newsletter" checked> 
+            Deseo recibir información sobre novedades y ofertas
+            </label><br>
+          
+            <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required> 
+            Declaro haber leído y acepto las condiciones generales del programa y la normativa sobre protección de datos
+            </label><br>
+          
+            <input type="submit" value="Enviar" style="cursor: pointer; text-align: center;">
+        </form>
+    </div>
+    <script src="registro.js"></script>
+</body>
+</html>
